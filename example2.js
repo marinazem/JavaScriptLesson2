@@ -1,4 +1,4 @@
-console.log(multTwoNum(10,5));
+console.log(multTwoNum(3,5));
 console.log(multTwoNum(7,5));
 console.log(multTwoNum(8, 2.15));
 console.log(multTwoNum(2,5));
