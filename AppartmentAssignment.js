@@ -11,12 +11,12 @@ const appartment1 = {
     street: "5th Avenue",
     price: 5000,
     rooms: ["master bedroom", "kids room", "washroom", "kitchen"]
-    // getDetails: function(){
-    //     let result = "The appartment on " + this.street +
-    //     ", " + this.city + " costs " + this.price + 
-    //     " dollars and has " + this.rooms.length + " rooms in total";
-    //     return result;
-    // } 
+    getDetails: function(){
+        let result = "The appartment on " + this.street +
+        ", " + this.city + " costs " + this.price + 
+        " dollars and has " + this.rooms.length + " rooms in total";
+        return result;
+    } 
 }
 
 const appartment2 = {
